@@ -1,0 +1,306 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16213642200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaiduSearch.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search in Baidu",
+        "description": "",
+        "id": "baidu-search;search-in-baidu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1846057200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaiduSearch.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6400485000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to Baidu Site",
+            "match": {
+              "location": "BaiduSearch.goToBaiduSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261668100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type the search keyword \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 27
+                }
+              ],
+              "location": "BaiduSearch.iTypeTheSearchKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5156517200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the search button",
+            "match": {
+              "location": "BaiduSearch.clickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183493300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify page contains search keyword \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 37
+                }
+              ],
+              "location": "BaiduSearch.verifyPageContainsSearchKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11518954900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaiduSearch.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search in Baidu",
+        "description": "",
+        "id": "baidu-search;search-in-baidu;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 845525500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaiduSearch.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2834006100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to Baidu Site",
+            "match": {
+              "location": "BaiduSearch.goToBaiduSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307816500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type the search keyword \"TestNg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestNg",
+                  "offset": 27
+                }
+              ],
+              "location": "BaiduSearch.iTypeTheSearchKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5186982500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the search button",
+            "match": {
+              "location": "BaiduSearch.clickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83875700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify page contains search keyword \"TestNg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestNg",
+                  "offset": 37
+                }
+              ],
+              "location": "BaiduSearch.verifyPageContainsSearchKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11097140900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaiduSearch.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search in Baidu",
+        "description": "",
+        "id": "baidu-search;search-in-baidu;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1431944100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaiduSearch.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2225201900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to Baidu Site",
+            "match": {
+              "location": "BaiduSearch.goToBaiduSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 379026100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type the search keyword \"DevOps\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DevOps",
+                  "offset": 27
+                }
+              ],
+              "location": "BaiduSearch.iTypeTheSearchKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5183080300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the search button",
+            "match": {
+              "location": "BaiduSearch.clickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131612800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify page contains search keyword \"DevOps\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DevOps",
+                  "offset": 37
+                }
+              ],
+              "location": "BaiduSearch.verifyPageContainsSearchKeyword(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Baidu Search",
+    "description": "",
+    "id": "baidu-search",
+    "keyword": "Feature",
+    "uri": "BaiduSearch.feature"
+  }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="71.28703">
+    <testcase classname="Baidu Search" name="Search in Baidu" time="30.061863">
+        <system-out>
+            <![CDATA[Given Go to Baidu Site......................................................passed
+When I type the search keyword "Cucumber"...................................passed
+And click the search button.................................................passed
+Then verify page contains search keyword "Cucumber".........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Baidu Search" name="Search in Baidu 2" time="20.777161">
+        <system-out>
+            <![CDATA[Given Go to Baidu Site......................................................passed
+When I type the search keyword "TestNg".....................................passed
+And click the search button.................................................passed
+Then verify page contains search keyword "TestNg"...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Baidu Search" name="Search in Baidu 3" time="20.448006">
+        <system-out>
+            <![CDATA[Given Go to Baidu Site......................................................passed
+When I type the search keyword "DevOps".....................................passed
+And click the search button.................................................passed
+Then verify page contains search keyword "DevOps"...........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
